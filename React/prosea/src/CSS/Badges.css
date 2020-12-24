@@ -1,0 +1,51 @@
+
+.badge {
+    user-select: none;
+    color: white;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+}
+
+.salary-badge {
+    color: black;
+    font-size: 12px !important;
+    background-color: #e59500 !important;
+}
+
+.active-badge {
+    font-size: 13px !important;
+    background-color: #009432 !important;
+}
+
+.expired-badge {
+    font-size: 13px !important;
+    background-color: #C23616 !important;
+}
+
+.complete-badge {
+    font-size: 13px !important;
+    background-color: #009432 !important;
+}
+
+.in-progress-badge {
+    color: black;
+    font-size: 13px !important;
+    background-color: #FFC312 !important;
+}
+
+.requested-badge {
+    font-size: 13px !important;
+    background-color: #C23616 !important;
+}
+
+.specialities-badge {
+    background-color: #0da37d !important;
+}
+
+.languages-badge {
+    background-color: #0984e3 !important;
+}
+
+.frameworks-badge {
+    background-color: #555de2 !important;
+}

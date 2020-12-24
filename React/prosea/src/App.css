@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+/*Tags*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a:hover, a:focus, input, textarea {
+    text-decoration: none;
+    outline: none;
+}
+
+button.close:focus {
+    outline: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-weight: 700 !important;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+strong {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: #F0F2F5 !important;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.my-color {
+    background-color: #FFFFFF !important;
+}
+
+.rounded-10 {
+    border-radius: 10px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.max-screen {
+    width: 1000px !important;
+}
+
+/*Calendar*/
+.rdrMonth {
+    width: 100% !important;
+}
+
+/*Animations*/
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+

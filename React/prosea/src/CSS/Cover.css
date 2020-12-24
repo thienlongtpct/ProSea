@@ -1,0 +1,30 @@
+.developer-background {
+    background-image: url('/Images/developer-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 30%;
+    height: 350px;
+    border-radius: 0 0 10px 10px;
+}
+
+.company-background {
+    background-image: url('/Images/company-background.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0;
+    height: 350px;
+    border-radius: 0 0 10px 10px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.short-info {
+    vertical-align: middle;
+}
+
+.short-info p {
+    font-size: 1rem;
+}

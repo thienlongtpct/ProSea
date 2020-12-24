@@ -1,0 +1,71 @@
+.skills-tables svg {
+    width: 35px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 767px) {
+    .skills-tables svg {
+        width: 45px;
+        margin-bottom: 15px;
+    }
+    .skills-tables h5 {
+        font-size: 1.75rem !important;
+    }
+}
+
+/*Modal*/
+.skills .modal-body {
+    padding: 1px 5px 10px 5px !important;
+}
+
+.modal-skills svg {
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+.modal-skills li {
+    padding: 9.33px 0 9.33px 0 !important;
+    text-align: center;
+}
+
+.modal-skills li > div {
+    padding: 15px;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-skills li > div:hover {
+    background-color: #E4E6EB;
+}
+
+.modal-skills p {
+    font-size: 17px;
+    margin: 0;
+}
+
+.checked {
+    border: 2px solid #68BCA4;
+    padding: 13px !important;
+}
+
+.checked:hover {
+    background-color: rgba(228,230,235, 0.2) !important;
+}
+
+/*Skill tables*/
+.skills-tables li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.skills-tables p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.skills-tables .btn {
+    text-transform: none !important;
+}

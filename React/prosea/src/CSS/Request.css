@@ -1,0 +1,13 @@
+.request-type {
+    color: rgba(0, 0, 0, 0.5) !important;
+    cursor: pointer;
+}
+
+.request-type.active {
+    color: #4285F4 !important;
+}
+
+
+.request-type:not(.active):hover {
+    background-color: #F2F2F2 !important;
+}

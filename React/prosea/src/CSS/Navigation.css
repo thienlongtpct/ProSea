@@ -1,0 +1,117 @@
+.navigation {
+    position: sticky;
+    top: 54px;
+    z-index: 1;
+    border-bottom: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.navigation nav {
+
+    cursor: pointer;
+    box-shadow: none !important;
+    border-top: 1px solid #CCCED2;
+    padding-top: 4px !important;
+}
+
+.navigation li.nav-item,
+.navigation .nav-dropdown {
+    display: flex !important;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.navigation li.nav-item .nav-link {
+    border-bottom: 4px solid #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px;
+}
+
+.navigation .nav-dropdown .nav-link {
+    border-bottom: 4px solid #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .5) !important;
+    padding: 14px !important;
+}
+
+.navigation li.nav-item .active {
+    border-bottom: 3px solid #4285F4;
+    color: #4285F4 !important;
+}
+
+.navigation li.nav-item :hover:not(.active) {
+    border-radius: 5px;
+    background-color: #F2F2F2 !important;
+}
+
+.navigation li.nav-item .nav-link :hover:not(.active) a .nav-link {
+    color: #65676b !important;
+}
+
+.navigation .nav-dropdown:hover,
+.navigation .nav-dropdown .active:hover {
+    background: #F2F2F2 !important;
+    color: black;
+}
+
+.navigation .nav-dropdown a.dropdown-item:active {
+    background: #D8DADE !important;
+    color: black;
+}
+
+.navigation .nav-dropdown .active {
+    background: #FFFFFF;
+    color: #4285F4 !important;
+    font-weight: 500;
+}
+
+.input-range {
+    height: 20px;
+}
+
+.navigation button {
+    background-color: #E4E7EA !important;
+    width: 51px !important;
+    height: 35px !important;
+}
+
+.navigation button i {
+    display: block;
+}
+
+.navigation button:hover {
+    background-color: #D8DADE !important;
+}
+
+.navigation .dropdown-menu {
+    margin-top: 10px !important;
+}
+
+.navigation .nav-dropdown .dropdown-menu {
+    margin-top: 0 !important;
+}
+
+.navigation .dropdown-toggle {
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.navigation .dropdown-toggle::after {
+    display: none;
+}
+
+.navigation .max-screen .feature {
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 19px;
+    line-height: 35px !important;
+    border-radius: .25rem;
+    background-color: #E4E7EA !important;
+}
+
+.navigation .feature:hover {
+    background-color: #D8DADE !important;
+}

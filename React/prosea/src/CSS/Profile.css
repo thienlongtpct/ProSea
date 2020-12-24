@@ -1,0 +1,6 @@
+.profile .form-control:disabled {
+    border: none;
+    box-shadow: none;
+    background-color: #FFFFFF;
+    color: #000000;
+}

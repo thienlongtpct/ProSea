@@ -1,0 +1,58 @@
+.btn {
+    border: 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+}
+
+.btn-gray {
+    background-color: #E4E6EB !important;
+    color: black !important;
+}
+.btn-gray:hover,
+.btn-gray:active,
+.btn-gray:visited,
+.btn-gray:focus {
+    background-color: #D8DADF !important;
+    box-shadow: none !important;
+}
+
+.btn-blue {
+    background-color: #3877EA !important;
+    color: white !important;
+}
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:visited,
+.btn-blue:focus {
+    background-color: #3571DE !important;
+    box-shadow: none;
+}
+
+.btn-green {
+    background-color: #20bf6b !important;
+    color: white !important;
+}
+.btn-green:hover,
+.btn-green:active,
+.btn-green:visited,
+.btn-green:focus {
+    background-color: #27AE60 !important;
+    box-shadow: none;
+}
+
+.btn-red {
+    background-color: #e74c3c !important;
+    color: white !important;
+}
+.btn-red:hover,
+.btn-red:active,
+.btn-red:visited,
+.btn-red:focus {
+    background-color: #c0392b !important;
+    box-shadow: none;
+}

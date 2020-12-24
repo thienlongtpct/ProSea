@@ -1,0 +1,12 @@
+.search-project input {
+    min-width: 300px;
+    width: 100%;
+    line-height: 38px;
+    border: 0 !important;
+}
+.search-project input:hover,
+.search-project input:active,
+.search-project input:visited,
+.search-project input:focus {
+    box-shadow: none !important;
+}

@@ -1,0 +1,45 @@
+.search-user {
+    background-color: #FFFFFF;
+}
+
+.search-user .bar {
+    background-color: #F0F2F5;
+    border-radius: 10rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.search-user .bar i {
+    font-size: 15px;
+    color: #495057;
+}
+
+.search-user .search-bar {
+    min-width: 300px;
+    border: 0 !important;
+}
+.search-user .search-bar:hover,
+.search-user .search-bar:active,
+.search-user .search-bar:visited,
+.search-user .search-bar:focus {
+    box-shadow: none !important;
+}
+
+.search-user .expand {
+    width: 407px;
+    position: absolute;
+    top: 100%;
+    background-color: #FFFFFF;
+    border-bottom-right-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.search-user .result:hover {
+    background-color: #F0F2F5;
+}
+
+.search-user .result a {
+    text-decoration: none;
+}

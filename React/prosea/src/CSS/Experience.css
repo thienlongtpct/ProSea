@@ -1,0 +1,26 @@
+#add-exp {
+    text-align: center;
+    color: #27AE60 !important;
+}
+#add-exp:hover {
+    border-radius: 100%;
+    background-color: #BEE6CF;
+}
+
+#edit-exp {
+    text-align: center;
+    color: #2C66BC !important;
+}
+#edit-exp:hover {
+    border-radius: 100%;
+    background-color: #BFD1EA;
+}
+
+#delete-exp  {
+    text-align: center;
+    color: #C0392B !important;
+}
+#delete-exp:hover  {
+    border-radius: 100%;
+    background-color: #ECC3BF;
+}

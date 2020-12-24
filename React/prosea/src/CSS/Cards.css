@@ -1,0 +1,9 @@
+.card-header {
+    background-color: #FFFFFF !important;
+    border-bottom: none !important;
+    border-radius: 10px !important;
+}
+
+.card-body {
+    cursor: pointer;
+}

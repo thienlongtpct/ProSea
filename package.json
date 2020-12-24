@@ -1,0 +1,8 @@
+{
+  "name": "prosea",
+  "version": "1.0.0",
+  "description": "This is a website where you can find and share projects",
+  "main": "index.js",
+  "author": "thienlongtpct",
+  "license": "ISC"
+}

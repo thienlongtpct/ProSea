@@ -1,0 +1,46 @@
+.social-panel-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-panel {
+    font-family: 'Exo 2', sans-serif;
+    color: #384049;
+}
+
+.social-panel p {
+    font-size: 14px;
+}
+
+.social-panel h4 {
+    margin: 20px 0;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.social-panel .contact a {
+    border: 1px solid #DCE1F2;
+    border-radius: 50%;
+    color: #001F61 !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    text-decoration: none !important;
+    background-color: #FFFFFF;
+}
+.social-panel .contact a:hover {
+    background-color: #001F61;
+}
+
+.social-panel .contact a:hover i {
+    color: #FFFFFF;
+}
+.social-panel .contact a i {
+    color: #001F61;
+}
